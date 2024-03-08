@@ -1,0 +1,97 @@
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis:  22%;
+    border: 1px solid rgb(15, 11, 11);
+
+    
+
+    
+  }
+  .row2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 48%
+    border: 1px solid black;
+  }
+  .row3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 74%
+    border: 1px solid black;
+  }
+  .row4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+    border: 1px solid black;
+ }
+  .row5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 48%;
+    border: 1px solid black;
+ }
+  .figure {
+    flex-basis:  22%;
+  }
+  .span2 {
+    flex-basis: 48%;
+    
+  }
+  .span3 {
+    flex-basis: 74%;
+  }
+  .span4 {
+    flex-basis: 100%;
+  }
+  
+  body {
+    
+    padding: 1px;
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    background-color: rgb(154, 197, 231);
+  }
+  
+  
+  figure {
+    
+    margin: 1px;
+    padding: 1px;
+  }
+    figcaption {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+  }
+  
+  figcaption * {
+    margin: 1rem;
+  }
+  
+  figure > div {
+    
+   
+    min-height: 180px;
+  }
+  
+  .one {
+    background-color: #6b99ee;
+  }
+  .two {
+    background-color: #e009ab;
+  }
+  .three {
+    background-color: #df490e;
+  }
+  .four {
+    background-color: #18cc21;
+  }
+ 
+  
